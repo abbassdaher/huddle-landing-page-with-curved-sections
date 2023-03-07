@@ -1,0 +1,43 @@
+.group1, .group2 , .group7{
+    text-align: center;
+}
+.group_background{
+    background-color: var(--Very-Pale-Blue);
+    width: 100%;
+    height: 450px;
+}
+.footer_background{
+    background-color: var(--Very-Dark-Cyan);
+
+}
+.backgroundupG4{
+    background-image: url(../images/bg-section-top-desktop-1.svg);
+
+}
+.backgroundBottomG4{
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
+
+}
+
+.backgroundup,
+.backgroundBottom{
+    width: 100%;
+    height: 152px;
+    background-repeat: no-repeat;
+}
+.backgroundupG6{
+    background-image: url(../images/bg-section-top-desktop-2.svg);
+
+}
+.backgroundBottomG6{
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+
+}
+.backgroundUpFooter{
+    background-image: url(../images/bg-footer-top-desktop.svg);
+
+}
+.backgroundBottomFooter{
+    background-image: url(../images/bg-footer-bottom-desktop.svg);
+
+}

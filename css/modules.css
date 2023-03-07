@@ -1,0 +1,30 @@
+.btn {
+    color: var(--Light-Pink);
+    background-color: aliceblue;
+    border: 1px solid var(--Light-Pink);
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.pink-btn {
+    background-color: var(--Pink);
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    width: 305px;
+    height: 61px;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.btn_sqrt {
+    border-radius: 0px;
+}
+
+.btn_small {
+    width: 140px;
+    height: 41px;
+    font-size: large;
+    border-radius: 10%;
+}

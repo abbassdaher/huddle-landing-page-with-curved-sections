@@ -1,0 +1,134 @@
+@import 'base.css';
+@import 'layouts.css';
+@import 'modules.css';
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/* # Front-end Style Guide */
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+/* ## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+## Typography */
+
+/* ### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700 */
+
+/* ## Icons
+
+For the social icons, you can use a font icon library.
+ Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/) */
+
+/* logo */
+.logo{
+    width: 147px;
+    height: 26px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+/* main */
+.main__title{
+    font-size: 50px;
+    margin-top: 190px;
+}
+.main__description{
+    
+    width: 45%;
+    margin: auto;
+    font-size: larger;
+    text-align: center;
+    line-height: 1.5;
+}
+.group3{
+    display: flex;
+    justify-content: space-around;
+}
+.group4,
+.group5,
+.group6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.group4__content{
+padding: 0 100px;
+}
+.image_sec{
+    padding: 0 100px;
+}
+
+.size_image{
+    width: 80%;
+    height: 800%;
+}
+
+/* group7 */
+
+.comunity_build_title{
+
+}
+/* footer */
+.footer__content{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    flex: 1;
+}
+.newsletter_sec{
+    flex: 1;
+   
+    
+}
+.subscribe_input{
+    width: 279px;
+    height: 41px;
+}
+.contact_description{
+width: 267px;
+line-height: 1.4;
+
+}
+.newsletter_description{
+    width: 290px;
+    line-height: 1.6;
+}
+
+

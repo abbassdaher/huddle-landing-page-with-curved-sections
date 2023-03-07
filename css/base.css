@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head--font {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Varela Round', sans-serif;  */
+}
+
+.main--font {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Varela Round', sans-serif; */
+}
+
+/* colors */
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+.coloredWight {
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.fontWight--400 {
+    font-weight: 400;
+}
+
+.fontWight--600 {
+    font-weight: 600;
+}
+
+.fontWight--700 {
+    font-weight: 700;
+}
+
+.Ymargin--top {
+    margin-top: 40px;
+    -webkit-margin-top: 40px;
+    -moz-margin-top: 40px;
+    -ms-margin-top: 40px;
+
+}
+
+.Ymargin--bottom {
+    margin-bottom: 40px;
+    -webkit-margin-bottom: 40px;
+    -moz-margin-bottom: 40px;
+    -ms-margin-bottom: 40px;
+
+}
+
+.YmarginSmall--top {
+    margin-top: 20px;
+    -webkit-margin-top: 20px;
+    -moz-margin-top: 20px;
+    -ms-margin-top: 20px;
+
+}
+
+.YmarginSmall--bottom {
+    margin-bottom: 20px;
+    -webkit-margin-bottom: 20px;
+    -moz-margin-bottom: 20px;
+    -ms-margin-bottom: 20px;
+
+}
+
+.YmarginLarge--bottom {
+    margin-bottom: 80px;
+    -webkit-margin-bottom: 80px;
+    -moz-margin-bottom: 80px;
+    -ms-margin-bottom: 80px;
+
+}
+
+.YmarginLarge--top {
+    margin-top: 80px;
+    -webkit-margin-top: 80px;
+    -moz-margin-top: 80px;
+    -ms-margin-top: 80px;
+
+}
+
+.xMarginMed--right {
+    margin-right: 34px;
+}
+
+.big-font {
+    font-size: 80px;
+
+}
+
+.midum-text {
+    font-size: 15px;
+
+}
+
+.large-text {
+    font-size: 40px;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.upercase {
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin-right:20px;
+}
