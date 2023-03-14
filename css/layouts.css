@@ -41,3 +41,20 @@
     background-image: url(../images/bg-footer-bottom-desktop.svg);
 
 }
+@media  screen and (max-width:376px) {
+    .backgroundupG4{
+        background-image: url(../images/bg-section-top-Mobile-1.svg);
+    
+    }
+    .group4{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .backgroundup{
+        height: 110px;
+}
+.grow__together__description {
+    text-align: center;
+}
+
+}
