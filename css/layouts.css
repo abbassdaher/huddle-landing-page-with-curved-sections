@@ -28,7 +28,7 @@
 .backgroundup,
 .backgroundBottom {
     width: 100%;
-    height: 100%;
+    height: 155px;
     background-repeat: no-repeat;
 }
 
@@ -48,10 +48,11 @@
 
 
 
-.logo__footer{
+.logo__footer {
     filter: grayscale(1) contrast(0) brightness(3);
     mix-blend-mode: hard-light;
 }
+
 @media screen and (max-width:376px) {
     .backgroundupG4 {
         background-image: url(../images/bg-section-top-Mobile-1.svg);
@@ -98,10 +99,10 @@
 
     .backgroundUpFooter {
         background-image: url(../images/bg-footer-top-mobile.svg);
+    }
 
+    .backgroundupfooter  {
+        height: 49px;
     }
-    .backgroundup {
-        height: 40px;
-    }
-    
+
 }

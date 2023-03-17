@@ -115,7 +115,6 @@ For the social icons, you can use a font icon library.
     display: flex;
     flex-direction:row;
     justify-content: space-around;
-    padding-top: 30px;
 }
 
 .contact {
