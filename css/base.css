@@ -97,6 +97,9 @@
 .xMarginMed--right {
     margin-right: 34px;
 }
+.xMargin--left {
+    margin-left: 34px;
+}
 
 .big-font {
     font-size: 80px;

@@ -1,60 +1,107 @@
-.group1, .group2 , .group7{
+.group1,
+.group2,
+.group7 {
     text-align: center;
 }
-.group_background{
+
+.group_background {
     background-color: var(--Very-Pale-Blue);
     width: 100%;
     height: 450px;
 }
-.footer_background{
+
+.footer_background {
     background-color: var(--Very-Dark-Cyan);
 
 }
-.backgroundupG4{
+
+.backgroundupG4 {
     background-image: url(../images/bg-section-top-desktop-1.svg);
 
 }
-.backgroundBottomG4{
+
+.backgroundBottomG4 {
     background-image: url(../images/bg-section-bottom-desktop-1.svg);
 
 }
 
 .backgroundup,
-.backgroundBottom{
+.backgroundBottom {
     width: 100%;
-    height: 152px;
+    height: 100%;
     background-repeat: no-repeat;
 }
-.backgroundupG6{
+
+.backgroundupG6 {
     background-image: url(../images/bg-section-top-desktop-2.svg);
 
 }
-.backgroundBottomG6{
+
+.backgroundBottomG6 {
     background-image: url(../images/bg-section-bottom-desktop-2.svg);
 
 }
-.backgroundUpFooter{
+
+.backgroundUpFooter {
     background-image: url(../images/bg-footer-top-desktop.svg);
-
 }
-.backgroundBottomFooter{
-    background-image: url(../images/bg-footer-bottom-desktop.svg);
 
+
+
+.logo__footer{
+    filter: grayscale(1) contrast(0) brightness(3);
+    mix-blend-mode: hard-light;
 }
-@media  screen and (max-width:376px) {
-    .backgroundupG4{
+@media screen and (max-width:376px) {
+    .backgroundupG4 {
         background-image: url(../images/bg-section-top-Mobile-1.svg);
-    
+
     }
-    .group4{
+
+    .group4,
+    .group6 {
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .backgroundup{
-        height: 110px;
-}
-.grow__together__description {
-    text-align: center;
-}
 
+    .backgroundup {
+        height: 103px;
+    }
+
+    .grow__together__description {
+        text-align: center;
+    }
+
+    .xMargin {
+        margin: 0 10px;
+    }
+
+    .large-text {
+        font-size: 25px;
+    }
+
+    .group5 {
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .backgroundupG6 {
+        background-image: url(../images/bg-section-top-mobile-2.svg);
+
+    }
+
+    .backgroundBottomG6 {
+        background-image: url(../images/bg-section-bottom-mobile-2.svg);
+
+    }
+
+    .backgroundUpFooter {
+        background-image: url(../images/bg-footer-top-mobile.svg);
+
+    }
+    .backgroundup {
+        height: 40px;
+    }
+    
 }

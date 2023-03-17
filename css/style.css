@@ -10,6 +10,7 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
 /* # Front-end Style Guide */
 
 /* ## Layout
@@ -53,114 +54,151 @@ For the social icons, you can use a font icon library.
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/) */
 
-/* logo */
-.logo{
+/* ff */
+.logo {
     width: 147px;
     height: 26px;
 }
-.header__content{
+
+.header__content {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
 }
+
 /* main */
-.main__title{
+.main__title {
     font-size: 50px;
     margin-top: 190px;
 }
-.main__description{
-    
+
+.main__description {
+
     width: 45%;
     margin: auto;
     font-size: larger;
     text-align: center;
     line-height: 1.5;
 }
-.group3{
+
+.group3 {
     display: flex;
     justify-content: space-around;
 }
+
 .group4,
 .group5,
-.group6{
+.group6 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
-.group4__content{
-/* padding: 0 100px; */
+
+.group4__content {
+    /* padding: 0 100px; */
 }
-.image_sec{
+
+.image_sec {
     padding: 0 100px;
 }
 
-.size_image{
+.size_image {
     width: 80%;
     height: 800%;
 }
 
 /* group7 */
 
-.comunity_build_title{
+.comunity_build_title {}
+
+/* footer */
+.footer__content {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.contact {
+    flex: 1;
+}
+
+.newsletter_sec {
+    flex: 1;
+
 
 }
-/* footer */
-.footer__content{
-    display: flex;
-    justify-content: space-around;
-}
-.contact{
-    flex: 1;
-}
-.newsletter_sec{
-    flex: 1;
-   
-    
-}
-.subscribe_input{
+
+.subscribe_input {
     width: 279px;
     height: 41px;
 }
-.contact_description{
-width: 267px;
-line-height: 1.4;
+
+.contact_description {
+    width: 267px;
+    line-height: 1.4;
 
 }
-.newsletter_description{
+
+.newsletter_description {
     width: 290px;
     line-height: 1.6;
 }
 
-@media  screen and (max-width:376px) {
+@media screen and (max-width:376px) {
     .main__title {
         font-size: 30px;
         margin-top: 100px;
     }
+
     .main__description {
         width: 80%;
         font-size: large;
         FONT-WEIGHT: 400;
-       
+
     }
+
     img.mockups {
         width: 100%;
     }
-    .group3{
+
+    .group3 {
         flex-direction: column;
     }
-    .community__center, .messages__sent {
+
+    .community__center,
+    .messages__sent {
         text-align: center;
     }
-    .community__center{
-        margin-bottom:40px ;
-    }
-    
-    .imgGrow-together {
-    width: 100%;
-    height: 100%;
-}
-.grow__together__title{
-    font-size: 23px;
-}
 
+    .community__center {
+        margin-bottom: 40px;
+    }
+
+    .imgGrow-together {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grow__together__title {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .margin__bottom__img {
+        margin-bottom: 40px;
+    }
+
+    .group5__content {
+        text-align: center;
+    }
+    .footer__content {
+        flex-direction: column-reverse;
+    }
+    .Ymargin--bottom {
+        margin: 40px 0;}
+.subscribe_sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
 }
