@@ -55,7 +55,7 @@
 
 @media screen and (max-width:376px) {
     .backgroundupG4 {
-        background-image: url(../images/bg-section-top-Mobile-1.svg);
+        background-image: url(../images/bg-section-top-mobile-1.svg);
 
     }
 
@@ -99,9 +99,6 @@
 
     .backgroundUpFooter {
         background-image: url(../images/bg-footer-top-mobile.svg);
-    }
-
-    .backgroundupfooter  {
         height: 49px;
     }
 
